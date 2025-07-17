@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f4fcf7;
+  color: #2e5339;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #a5d6a7;
+  padding: 1em 2em;
+}
+.logo {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #2e5339;
+  font-weight: 600;
+}
+.hero {
+  text-align: center;
+  padding: 4em 2em;
+  background: linear-gradient(to right, #c5e1a5, #dcedc8);
+}
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.3em;
+}
+.btn {
+  background: #43a047;
+  color: white;
+  padding: 0.8em 1.5em;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-top: 1em;
+  transition: background-color 0.3s;
+}
+.btn:hover {
+  background: #2e7d32;
+}
+.section {
+  padding: 3em 2em;
+  text-align: center;
+}
+.section h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+.flow .steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+}
+.step {
+  background: white;
+  border-left: 8px solid #81c784;
+  padding: 2em;
+  border-radius: 12px;
+  width: 280px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  position: relative;
+}
+.step-number {
+  position: absolute;
+  top: -10px;
+  left: -35px;
+  background-color: #388e3c;
+  color: white;
+  font-weight: bold;
+  padding: 0.5em 0.8em;
+  border-radius: 50%;
+  font-size: 1.2em;
+}
+.step h3 {
+  margin-top: 0.5em;
+  font-size: 1.2em;
+}
+footer {
+  background: #c8e6c9;
+  text-align: center;
+  padding: 1.5em;
+  font-size: 0.9em;
+}
